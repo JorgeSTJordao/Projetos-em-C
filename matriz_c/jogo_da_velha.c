@@ -1,4 +1,5 @@
 #include <stdio.h>
+// O jogo não utiliza strings X ou O, mas -1 para você e 1 para o oponente
 
 int terminar(int num, int mat[3][3]){
     int linha, coluna, totn = 0;
