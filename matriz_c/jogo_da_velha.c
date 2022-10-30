@@ -1,5 +1,7 @@
 #include <stdio.h>
 // O jogo não utiliza strings X ou O, mas -1 para você e 1 para o oponente
+/* Para indicar a posição que você vai jogar, devemos realizar pelos índices da matriz. 
+Ex: ao jogar no primeiro quadrado, será indicado pelas coordenadas (0, 0)*/
 
 int terminar(int num, int mat[3][3]){
     int linha, coluna, totn = 0;
